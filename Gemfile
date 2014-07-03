@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'middleman', '~> 2.0.15'
+gem 'middleman'
+gem 'middleman-deploy'
 gem 'ejs'
 gem 'eco'
 gem 'compass'

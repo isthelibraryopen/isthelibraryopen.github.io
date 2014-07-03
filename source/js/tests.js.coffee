@@ -10,8 +10,8 @@ describe "Library", ->
   library = new Library
     name: "Test Library"
     hours:
-      Sunday: [1400, 1800]
-      Monday: [0900, 1800]
+      Sunday: ['1400', '1800']
+      Monday: ['0900', '1800']
       Tuesday: []
     address:
       street: "103 Choctaw Dr"
@@ -37,4 +37,3 @@ describe "Holiday", ->
   it "can be created from a text date", ->
     holiday = new Holiday(name: "June First", date: "2012-06-01")
     holiday.date.valueOf().should.equal(moment("June 1, 2012").valueOf())
-
