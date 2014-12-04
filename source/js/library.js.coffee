@@ -5,6 +5,8 @@
 class Library
   constructor: (data) ->
     {@name, @hours, @address, @phone} = data
+    days_open = (day for day, hours of @hours when hours.length == 2)
+    @closed = (days_open.length == 0)    
 
   fullAddress: ->
     "#{@address.street}, Durham NC #{@address.zip}"
@@ -26,6 +28,8 @@ class Library
       time = date.format("HHmm")
       if not(Holiday.isHoliday(date)) and @hours[day][0] > time
         "It will open at #{mt @hours[day][0]} today."
+      else if @closed
+        "It is closed until further notice."
       else
         date = date.add('days', 1)
         dow = date.day()
