@@ -5,7 +5,7 @@ east:
     Tuesday: ['0900', '2100']
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
-    Friday: ['1400', '1800']
+    Friday: ['0930', '1800']
     Saturday: ['0930', '1800']
     Sunday: ['1400', '1800']
   address:
@@ -19,7 +19,7 @@ north:
     Tuesday: ['0900', '2100']
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
-    Friday: ['1400', '1800']
+    Friday: ['0930', '1800']
     Saturday: ['0930', '1800']
     Sunday: ['1400', '1800']
   address:
@@ -33,7 +33,7 @@ south:
     Tuesday: ['0900', '2100']
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
-    Friday: ['1400', '1800']
+    Friday: ['0930', '1800']
     Saturday: ['0930', '1800']
     Sunday: ['1400', '1800']
   address:
@@ -47,7 +47,7 @@ southwest:
     Tuesday: ['0900', '2100']
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
-    Friday: ['1400', '1800']
+    Friday: ['0930', '1800']
     Saturday: ['0930', '1800']
     Sunday: ['1400', '1800']
   address:
@@ -61,7 +61,7 @@ warren:
     Tuesday: ['0900', '2100']
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
-    Friday: ['1400', '1800']
+    Friday: ['0930', '1800']
     Saturday: ['0930', '1800']
     Sunday: []
   address:
@@ -82,3 +82,31 @@ bragtown:
     street: 3200 Dearborn Dr
     zip: 27704
   phone: 919-560-0210
+ncc:
+  name: North Carolina Collection
+  hours:
+    Monday: ['1230', '2100']
+    Tuesday: ['1000', '1700']
+    Wednesday: ['1000', '1700']
+    Thursday: ['1000', '1700']
+    Friday: ['1000', '1700']
+    Saturday: ['1000', '1700']
+    Sunday: []
+  address:
+    street: Northgate Mall Suite 832, 1058 N Club Blvd
+    zip: 27701
+  phone: 919-560-0171
+dac:
+  name: Digital Access Center
+  hours:
+    Monday: []
+    Tuesday: []
+    Wednesday: []
+    Thursday: []
+    Friday: ['1000', '1730']
+    Saturday: ['1000', '1730']
+    Sunday: ['1400', '1730']
+  address:
+    street: 326 E Main St
+    zip: 27701
+  phone:
