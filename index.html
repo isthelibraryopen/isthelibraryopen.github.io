@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<title>Is the Library Open?</title>
+<link href="//fonts.googleapis.com/css?family=Istok+Web:400,700,400italic" rel="stylesheet" />
+<link href="/css/style.css?1517777054" rel="stylesheet" />
+</head>
+<body>
+<div id='main' role='main'>
+<div id='header'>
+<div class='container'>
+<div class='row'>
+<div class='span6' id='library'>
+<a href='http://www.durhamcountylibrary.org'>Durham County Library</a>
+</div>
+<div class='span6'>
+<span id='now'></span>
+</div>
+</div>
+</div>
+</div>
+<div class='container'>
+<div id='itlo'>
+<div class='row'>
+<div class='span12'>
+Is
+<div class='btn-group' id='library-chooser'>
+<button class='btn btn-large dropdown-toggle' data-toggle='dropdown' href='#'>
+<span class='btn-text'>choose library</span>
+<span class='caret'></span>
+</button>
+<ul class='dropdown-menu'>
+<li>
+<a data-library='east' href='#'>East Regional Library</a>
+</li>
+<li>
+<a data-library='north' href='#'>North Regional Library</a>
+</li>
+<li>
+<a data-library='south' href='#'>South Regional Library</a>
+</li>
+<li>
+<a data-library='southwest' href='#'>Southwest Regional Library</a>
+</li>
+<li>
+<a data-library='warren' href='#'>Stanford L. Warren Branch</a>
+</li>
+<li>
+<a data-library='bragtown' href='#'>Bragtown Library Family Literacy Center</a>
+</li>
+<li>
+<a data-library='ncc' href='#'>North Carolina Collection</a>
+</li>
+<li>
+<a data-library='dac' href='#'>Digital Access Center</a>
+</li>
+</ul>
+</div>
+open?
+</div>
+</div>
+<div id='open-info'></div>
+</div>
+<div class='row'>
+<div class='span5'>
+<div id='schedule'>
+<div id='hours'></div>
+<div id='updated'>Last updated: February 04, 2018</div>
+</div>
+</div>
+<div class='span7' id='contact'></div>
+</div>
+</div>
+<div id='footer'>
+<div class='container'>
+<div class='row'>
+Brought to you by the
+<a href='http://www.durhamcountylibrary.org/board.php'>Durham County Library Board of Trustees</a>
+and
+<a href='http://thinkrelevance.com'>Relevance, Inc.</a>
+</div>
+<div class='row oss'>
+Is the Library Open? is
+<a href="http://en.wikipedia.org/wiki/Open-source_software">open-source software</a>.
+Find the code
+<a href="https://github.com/cndreisbach/itlo">at GitHub</a>.
+</div>
+</div>
+</div>
+
+</div>
+<script src="//maps.google.com/maps?file=api&amp;amp;v=2&amp;amp;key=AIzaSyC_y6Kge3bqpBgHygX3kqSSxWJNv3KawoM"></script>
+<script src="/js/app.js?1517777057"></script>
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31407557-1']);
+  _gaq.push(['_setDomainName', 'isthelibraryopen.com']);
+  _gaq.push(['_trackPageview']);
+  
+  (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>
